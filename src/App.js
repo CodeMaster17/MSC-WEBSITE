@@ -7,6 +7,8 @@ import Project from './homepage/project';
 import Leads from './homepage/leads';
 import Organisation from './homepage/organisation';
 import Process from './homepage/process';
+import Events  from './Events/Events.js';
+import Projects from './Projects/Projects';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Leads />
       <Process />
       <Organisation />
+     <Events/>
+     <Projects/>
     </div>
   );
 }
