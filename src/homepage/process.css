@@ -1,0 +1,78 @@
+.process__container {
+  display: flex;
+  width: 100vw;
+  height: 82vh;
+  flex-direction: row;
+  background-image: url(../images/roadmap2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: space-evenly;
+  padding: 20px 80px;
+}
+
+.process__element {
+  width: 250px;
+}
+
+.element1 {
+  width: 400px;
+  padding-top: 0px;
+}
+
+.element1 h1 {
+  padding-bottom: 70px;
+  color: #1853c5;
+}
+.element1 p {
+  width: 200px;
+}
+.element2 {
+  padding-top: 270px;
+}
+.element3 {
+  width: 400px;
+  padding-top: 140px;
+  padding-left: 220px;
+}
+
+@media only screen and (max-width: 600px){
+  .process__container {
+    width: 600px;
+    height: 160vh;
+    flex-direction: column;
+    background-image: none;
+    align-items: center;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .process__element {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding-bottom: 40px;
+    font-size: 1.3rem;
+  }
+  .element1 {
+    width: 250px;
+    padding: 0;
+    margin: 0;
+  }
+  .element1 p{
+    margin-right: 0;
+  }
+  .element1 h1 {
+    padding-bottom: 90px;
+  }
+  .element1 p {
+    display: inline-block;
+    width: 200px;
+  }
+  .element2 {
+    padding-top: 0px;
+  }
+  .element3 {
+    width: 250px;
+    padding-top: 0px;
+    padding-left: 0;
+  }
+}

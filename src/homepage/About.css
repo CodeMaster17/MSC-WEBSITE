@@ -1,0 +1,53 @@
+.about__container {
+  background-image: url(../images/Desktop\ -\ 1.jpg);
+  object-fit: contain;
+  color: #fff;
+  display: flex;
+  height: 140vh;
+  width: 100vw;
+  flex-direction: column;
+  padding: 240px 80px;
+}
+
+.about__title {
+  padding-bottom: 40px;
+}
+
+.about__content{
+  margin-left: 75px;
+  padding: 0 80px;
+}
+
+.about__events{
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+  color: #0d2963;
+  line-height: 40px;
+}
+
+@media only screen and (max-width: 600px){
+  .about__container {
+    width: 600px;    
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  .about__title {
+    padding-bottom: 140px;
+    text-align: center;
+  }
+  .about__content{
+    margin-left: 0;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .about__events{
+    justify-content: center;
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 30px;
+    color: #0d2963;
+    line-height: 40px;
+  }
+}
