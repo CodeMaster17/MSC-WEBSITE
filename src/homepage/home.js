@@ -12,8 +12,6 @@ function home() {
       <div className="home__content">
         <p>Microsoft Student Community, KIIT Chapter, is a technical community dedicatedly working on elevating the coding culture of Kalinga Institute of Industrial Technology, Bhubaneswar by providing opportunities to students to work on projects and boost their analytical and logical skills along with the coding.</p>
       </div>
-
-
     </div>
 
   );
