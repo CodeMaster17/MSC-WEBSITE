@@ -1,6 +1,7 @@
 import React from "react";
 import './event-card.css'
 import {MdChevronRight,MdChevronLeft} from 'react-icons/md';
+
 const ReactCardSlider =(props)=>{
     const slides = [1,2,3,4,5,6,7,8];
 
@@ -33,8 +34,6 @@ const ReactCardSlider =(props)=>{
                             <p>number of participants : xx</p>
                             <p>mode of conduct : offline/online/hybrid</p>                            
                             
-
-
                         </div>
 
                     )

@@ -1,0 +1,58 @@
+.org__container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+  padding: 160px 80px;
+}
+
+.org__detail {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.org__header {
+  color: #1853c5;
+}
+
+.org__data img {
+  width: 180px;
+}
+
+.org__data h3 {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .org__container {
+    width: 600px;
+    height: 180vh;
+    padding: 20px 20px;
+  }
+
+  .org__header {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .org__detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .org__data {
+    padding: 20px;
+  }
+  .org__data img {
+    width: 200px;
+  }
+}
+
+/* .bakar{
+  jo bhi hai usko pata hai
+} */

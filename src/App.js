@@ -1,14 +1,29 @@
 import React from 'react';
-import Events  from './Events/Events.js';
+import Navbar from './Events/Components/Navbar';
+import Event from './Events/Events';
+import Home from './homepage/home';
+import About from './homepage/About';
+import Project from './homepage/project';
+import Leads from './homepage/leads';
+import Organisation from './homepage/organisation';
+import Process from './homepage/process';
+import Events from './Events/Events.js';
 import Projects from './Projects/Projects';
 import MemberPage from './Members/MemberPage';
 
 function App() {
   return (
     <div className="App">
-     <Events/>
-     <Projects/>
-     <MemberPage/>
+      <Navbar />
+      <Home />
+      <About />
+      <Project />
+      <Leads />
+      <Process />
+      <Organisation />
+      <Events />
+      <Projects />
+      <MemberPage />
     </div>
   );
 }
