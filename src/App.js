@@ -9,6 +9,7 @@ import Organisation from './homepage/organisation';
 import Process from './homepage/process';
 import Events from './Events/Events.js';
 import Projects from './Projects/Projects';
+import MemberPage from './Members/MemberPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Organisation />
       <Events />
       <Projects />
+      <MemberPage />
     </div>
   );
 }
